@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+.quiz {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.quiz-questions,
+.quiz-indicator,
+.quiz-results{
+  margin-bottom: 20px;
+}
+
+.quiz-questions-item,
+.quiz-results-item{
+  margin-bottom: 20px;
+}
+
+.quiz-questions-questions,
+.quiz-results-questions{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.quiz-questions-answers,
+.quiz-results-answers{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.quiz-results {
+  display: none;
+}
+
+.btn-next {
+
+}
+.btn-restart {
+  display: none;
+}
+
+.questions--hidden,
+.indicator--hidden,
+.btn-next--hidden{
+  display: none;
+}
+
+.results--visible,
+.btn-restart--visible{
+  display: block;
+}
+
+.answer--invalid {
+  color: red;
+}
+.answer--valid {
+  color: green;
+}
